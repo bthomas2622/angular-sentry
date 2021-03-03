@@ -8,6 +8,12 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <button onclick="ThrowErrorFunction()">Generate Error</button>
+  <script>
+    function ThrowErrorFunction() {
+      console.log("Throwing error for sentry");
+      throw "Error for Sentry";
+    }
+  </script>
 </body>
 </html>
