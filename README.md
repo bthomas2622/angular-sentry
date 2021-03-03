@@ -6,6 +6,8 @@ This is a simple angular app that can generate errors and send to Sentry.
 
 In order for your Sentry project to capture errors thrown by this sample app you will need to put in the Data Source Name (DSN) for your project in the Sentry.Init config. This is located in the file `app.module.ts` in */angular-sentry/src/app/app.module.ts*
 
+***NOTE***: If you do not have a DSN you will need to obtain one by "Create a project - Angular" in the Sentry UI. And get the associated DSN. 
+
 ```
 Sentry.init({
   dsn: "your-dsn-key" ,
